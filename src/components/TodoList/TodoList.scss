@@ -1,0 +1,21 @@
+.todo-table {
+  width: 100%;
+  table-layout: fixed;
+
+  &__head {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #fce0bd
+  }
+
+  &__cell {
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

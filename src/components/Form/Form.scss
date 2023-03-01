@@ -1,0 +1,35 @@
+.form {
+  &__field {
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #fce0bd;
+  }
+
+  &__input {
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+    &--error {
+      border: 2px solid red;
+    }
+  }
+
+  &__button {
+    width: 100px;
+    height: 29px;
+  }
+
+  &__error {
+    visibility: hidden;
+    
+    &--active {
+      visibility: visible;
+      color: red;
+      font-size: 1rem;
+      }
+  }
+}
